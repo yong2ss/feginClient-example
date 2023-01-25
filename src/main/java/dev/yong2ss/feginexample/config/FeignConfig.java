@@ -12,5 +12,4 @@ public class FeignConfig {
     public Logger feignLogger() {
         return new FeignCustomLogger();
     }
-
 }

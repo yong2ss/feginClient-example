@@ -25,7 +25,6 @@ public class DemoFeignInterceptor implements RequestInterceptor {
         System.out.println("[POST] [DemoFeignInterceptor] requestBody : " + encodedRequestBody);
 
         // 앞으로 필요한 추가 로직을 넣는다.
-
         String convertRequestBody = encodedRequestBody;
         template.body(encodedRequestBody);
     }
